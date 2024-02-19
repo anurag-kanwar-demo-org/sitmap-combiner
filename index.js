@@ -1,5 +1,5 @@
 import { js2xml, xml2js } from "xml-js"
-import fs from "fs"
+import fs from "fs/promises"
 import { glob } from "glob"
 
 async function giveFileNames() {
